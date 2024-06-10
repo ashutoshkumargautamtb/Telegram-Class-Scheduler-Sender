@@ -1,0 +1,17 @@
+@echo off
+echo Installing Python packages...
+
+pip install sys
+pip install schedule
+pip install asyncio
+pip install warnings
+pip install logging
+pip install timeit
+pip install gspread
+pip install sqlite3
+pip install python-telegram-bot
+pip install tqdm
+pip install pyqt5
+
+echo Installation complete.
+pause
